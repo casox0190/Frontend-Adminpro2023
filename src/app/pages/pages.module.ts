@@ -16,6 +16,8 @@ import { PagesComponent } from './pages/pages.component';
 
 //Modulos propios
 import { SharedModule } from '../shared/shared.module';
+import { FormsModule } from '@angular/forms';
+import { ComponentsModule } from '../components/components.module';
 
 
 
@@ -31,7 +33,9 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     SharedModule,
-    RouterModule
+    RouterModule,
+    FormsModule,
+    ComponentsModule
   ],
   exports:[
     DashboardComponent,
