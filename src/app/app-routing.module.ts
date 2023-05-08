@@ -2,7 +2,10 @@
 import { NgModule } from '@angular/core';
 import {RouterModule, Routes}from '@angular/router';
 
+
 //Modulos creados
+
+//Modulos propios
 import { PagesRoutingModule } from './pages/pages.routing';
 import { AuthRoutingModule } from './auth/auth.routing';
 
