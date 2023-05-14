@@ -19,6 +19,8 @@ import { SharedModule } from '../shared/shared.module';
 import { FormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 import { AccountsettingsComponent } from './accountsettings/accountsettings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 
 
@@ -30,7 +32,9 @@ import { AccountsettingsComponent } from './accountsettings/accountsettings.comp
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AccountsettingsComponent
+    AccountsettingsComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,
@@ -44,7 +48,8 @@ import { AccountsettingsComponent } from './accountsettings/accountsettings.comp
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
-    AccountsettingsComponent
+    AccountsettingsComponent,
+    PromesasComponent
 
   ]
 })
